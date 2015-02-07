@@ -6,4 +6,4 @@ This repository serves me as a learning platform. I test new solutions here and 
 * symtest - The main thing I'm trying to get along with for now.
 
 # Things to keep in mind
-* When using a development server in any framework with vagrant, set the address to 0.0.0.0:"your port" so that it can be forwarded!
+* When using a development server in any framework with Vagrant, set the address to 0.0.0.0:"your port" so that it can be forwarded!
