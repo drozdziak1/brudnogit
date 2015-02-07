@@ -14,7 +14,7 @@ sudo apt-get install -y apache2
 # Install php5
 sudo apt-get install -y php5
 
-# Install and nable mcrypt module for php5
+# Install and enable mcrypt module for php5
 sudo apt-get install -y php5-mcrypt
 sudo php5enmod mcrypt
 
