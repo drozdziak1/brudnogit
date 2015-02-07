@@ -14,6 +14,13 @@ sudo apt-get install -y apache2
 # Install php5
 sudo apt-get install -y php5
 
+# Enable mcrypt module for php5
+sudo php5enmod mcrypt
+
+# Install composer and symlink to /usr/bin/
+curl -sS https://getcomposer.org/installer | php
+sudo ln -s ~/composer.phar /usr/bin/composer
+
 # Symlink apache root to /vagrant shared folder
 sudo rm -rf /var/www/html
 sudo ln -sf /vagrant /var/www/html
