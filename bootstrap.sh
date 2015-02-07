@@ -5,7 +5,7 @@
 # you actually need the -y flag so that the process doesn't
 # need your attendance (-y is for answering every question as "yes")
 
-# Update package base
+# Update packages lists
 sudo apt-get update
 
 # Install Apache web server
@@ -14,7 +14,8 @@ sudo apt-get install -y apache2
 # Install php5
 sudo apt-get install -y php5
 
-# Enable mcrypt module for php5
+# Install and nable mcrypt module for php5
+sudo apt-get install -y php5-mcrypt
 sudo php5enmod mcrypt
 
 # Install composer and symlink to /usr/bin/
