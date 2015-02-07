@@ -1,3 +1,3 @@
-[submodule "vagrant-webdev"]
+[submodule "vagrant"]
 	path = vagrant
 	url = https://github.com/drozdziak1/vagrant-webdev
