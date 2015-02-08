@@ -7,4 +7,4 @@ This repository serves me as a learning platform. I test new solutions here and 
 # Things to keep in mind
 * When using a development server in any framework with Vagrant, set the address to 0.0.0.0:"your port" so that it can be forwarded!
 * Current port forwarding for Vagrant is: 8000 -> 8000, 80 -> 8080, 22 -> 2222
-* You may want to update the vagrant subrepo for my junk to work on your machine. Simply type "git submodule update" and you're done.
+* You may want to update the vagrant subrepo for my junk to work on your machine. Simply type "git submodule update vagrant" and you're done.
