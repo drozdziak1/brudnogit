@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -7,6 +7,10 @@
     <title>Tu wpisz tytuł strony</title>
 </head>
 <body>
-    @yield('content')
+    <div class="container">
+      @yield('content')
+    </div>
+
+    @yield('footer')
 </body>
 </html>
