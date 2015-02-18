@@ -3,6 +3,8 @@ This repository serves me as a learning platform. I test new solutions here and 
 # Current stuff I'm playing with
 * vagrant - Managed to set up a simple trusty64 vagrant environment. See drozdziak1/vagrant-webdev for details.
 * larry - The main thing I'm trying to get along with for now; a Laravel project. By default, it uses a MySQL database called "larry". If you'd like to play with my app, please create the database.
+* rubinstein - An attempt to get familiar with Ruby on Rails.
+* dj - decided to retry django
 
 # Things to keep in mind
 * When using a development server in any framework with Vagrant, set the address to 0.0.0.0:"your port" so that it can be forwarded!
