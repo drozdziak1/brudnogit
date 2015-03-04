@@ -1,3 +1,6 @@
 [submodule "vagrant"]
 	path = vagrant
 	url = https://github.com/drozdziak1/vagrant-webdev
+[submodule "introjuice"]
+	path = introjuice
+	url = ./introjuice
