@@ -1,0 +1,392 @@
+
+2015-07-23 16:37:57...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:38:08...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:38:44...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:38:50...Begin System Check Process *************
+2015-07-23 16:38:50...ERROR:: Database Support was not found.  Please make sure you have the necessary drivers for one of the following supported Database Types: MySQL or MS SQLServer.  You might need to uncomment the extension in the php.ini file, or recompile with the right binary file, depending on your version of PHP.  Please refer to your PHP Manual for more information on how to enable Database Support.
+2015-07-23 16:38:50...XML Parsing Support Found
+2015-07-23 16:38:50...MBString Support Found
+2015-07-23 16:38:50...ERROR:: ZIP support not found: SuiteCRM needs ZIP support in order to process compressed files.
+2015-07-23 16:38:50.../custom directory and subdirectory check passed
+2015-07-23 16:38:50...cache directory and subdirectory check passed
+2015-07-23 16:38:50.../module  directory and subdirectory check passed
+2015-07-23 16:38:50.../upload directory check passed
+2015-07-23 16:38:50...ERROR: Zip support not found.
+2015-07-23 16:38:50...PCRE version check passed
+2015-07-23 16:38:50...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:38:50...php.ini location found. /etc/php/php.ini
+2015-07-23 16:38:50...Outputting HTML for System check
+2015-07-23 16:38:50...Errors were found *************
+2015-07-23 16:44:07...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:10...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:18...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:22...Begin System Check Process *************
+2015-07-23 16:44:22...XML Parsing Support Found
+2015-07-23 16:44:22...MBString Support Found
+2015-07-23 16:44:22...ZIP Support Found
+2015-07-23 16:44:22.../custom directory and subdirectory check passed
+2015-07-23 16:44:22...cache directory and subdirectory check passed
+2015-07-23 16:44:25.../module  directory and subdirectory check passed
+2015-07-23 16:44:25.../upload directory check passed
+2015-07-23 16:44:25.../zip check passed
+2015-07-23 16:44:25...PCRE version check passed
+2015-07-23 16:44:25...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:25...php.ini location found. /etc/php5/cli/php.ini
+2015-07-23 16:44:25...Outputting HTML for System check
+2015-07-23 16:44:25...No Errors were found *************
+2015-07-23 16:44:28...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:39...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:44:45...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:45:31...Begin DB Check Process *************
+2015-07-23 16:45:31...testing with mysql:mysqli
+2015-07-23 16:45:31...Basic form info is valid, continuing Process.
+2015-07-23 16:45:31...Testing user account...
+2015-07-23 16:45:31...Connection made using  host: 0.0.0.0, usr: root
+2015-07-23 16:45:31...Testing priviliged account...
+2015-07-23 16:45:31...Connection made using  host: 0.0.0.0, usr: root
+2015-07-23 16:45:31...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2015-07-23 16:45:31...Passed DB install check
+2015-07-23 16:45:31...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2015-07-23 16:45:31...End DB Check Process *************
+2015-07-23 16:45:41...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:45:56...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:46:46...installerHook: Could not find custom/install/install_hooks.php
+2015-07-23 16:46:46...calling handleSugarConfig()
+2015-07-23 16:46:46...calling handleHtaccess()
+2015-07-23 16:46:46...calling handleDbCharsetCollation()
+2015-07-23 16:46:48...looping through all the Beans and create their tables
+2015-07-23 16:46:48...processing table acl_actions
+2015-07-23 16:46:48...dropping table acl_actions
+2015-07-23 16:46:48...creating table acl_actions
+2015-07-23 16:46:48...creating Relationship Meta for ACLAction
+2015-07-23 16:46:48...processing table acl_roles
+2015-07-23 16:46:48...dropping table acl_roles
+2015-07-23 16:46:48...creating table acl_roles
+2015-07-23 16:46:48...creating Relationship Meta for ACLRole
+2015-07-23 16:46:48...processing table relationships
+2015-07-23 16:46:48...dropping table relationships
+2015-07-23 16:46:48...creating table relationships
+2015-07-23 16:46:48...creating Relationship Meta for Relationship
+2015-07-23 16:46:48...processing table leads
+2015-07-23 16:46:48...dropping table leads
+2015-07-23 16:46:48...creating table leads
+2015-07-23 16:46:48...creating Relationship Meta for Lead
+2015-07-23 16:46:49...processing table cases
+2015-07-23 16:46:49...dropping table cases
+2015-07-23 16:46:49...creating table cases
+2015-07-23 16:46:49...creating Relationship Meta for Case
+2015-07-23 16:46:49...processing table bugs
+2015-07-23 16:46:49...dropping table bugs
+2015-07-23 16:46:49...creating table bugs
+2015-07-23 16:46:49...creating Relationship Meta for Bug
+2015-07-23 16:46:49...processing table users
+2015-07-23 16:46:49...dropping table users
+2015-07-23 16:46:49...creating table users
+2015-07-23 16:46:49...creating Relationship Meta for User
+2015-07-23 16:46:49...processing table campaign_log
+2015-07-23 16:46:49...dropping table campaign_log
+2015-07-23 16:46:49...creating table campaign_log
+2015-07-23 16:46:49...creating Relationship Meta for CampaignLog
+2015-07-23 16:46:49...processing table project
+2015-07-23 16:46:49...dropping table project
+2015-07-23 16:46:49...creating table project
+2015-07-23 16:46:49...creating Relationship Meta for Project
+2015-07-23 16:46:49...processing table project_task
+2015-07-23 16:46:49...dropping table project_task
+2015-07-23 16:46:49...creating table project_task
+2015-07-23 16:46:49...creating Relationship Meta for ProjectTask
+2015-07-23 16:46:49...processing table campaigns
+2015-07-23 16:46:49...dropping table campaigns
+2015-07-23 16:46:49...creating table campaigns
+2015-07-23 16:46:49...creating Relationship Meta for Campaign
+2015-07-23 16:46:49...processing table prospect_lists
+2015-07-23 16:46:49...dropping table prospect_lists
+2015-07-23 16:46:49...creating table prospect_lists
+2015-07-23 16:46:49...creating Relationship Meta for ProspectList
+2015-07-23 16:46:50...processing table prospects
+2015-07-23 16:46:50...dropping table prospects
+2015-07-23 16:46:50...creating table prospects
+2015-07-23 16:46:50...creating Relationship Meta for Prospect
+2015-07-23 16:46:50...processing table email_marketing
+2015-07-23 16:46:50...dropping table email_marketing
+2015-07-23 16:46:50...creating table email_marketing
+2015-07-23 16:46:50...creating Relationship Meta for EmailMarketing
+2015-07-23 16:46:50...processing table campaign_trkrs
+2015-07-23 16:46:50...dropping table campaign_trkrs
+2015-07-23 16:46:50...creating table campaign_trkrs
+2015-07-23 16:46:50...creating Relationship Meta for CampaignTracker
+2015-07-23 16:46:50...processing table releases
+2015-07-23 16:46:50...dropping table releases
+2015-07-23 16:46:50...creating table releases
+2015-07-23 16:46:50...creating Relationship Meta for Release
+2015-07-23 16:46:50...processing table emailman
+2015-07-23 16:46:50...dropping table emailman
+2015-07-23 16:46:50...creating table emailman
+2015-07-23 16:46:50...creating Relationship Meta for EmailMan
+2015-07-23 16:46:50...processing table schedulers
+2015-07-23 16:46:50...dropping table schedulers
+2015-07-23 16:46:50...creating table schedulers
+2015-07-23 16:46:50...creating Relationship Meta for Scheduler
+2015-07-23 16:46:50...processing table job_queue
+2015-07-23 16:46:50...dropping table job_queue
+2015-07-23 16:46:50...creating table job_queue
+2015-07-23 16:46:50...creating Relationship Meta for SchedulersJob
+2015-07-23 16:46:50...processing table contacts
+2015-07-23 16:46:50...dropping table contacts
+2015-07-23 16:46:50...creating table contacts
+2015-07-23 16:46:50...creating Relationship Meta for Contact
+2015-07-23 16:46:50...processing table accounts
+2015-07-23 16:46:50...dropping table accounts
+2015-07-23 16:46:50...creating table accounts
+2015-07-23 16:46:50...creating Relationship Meta for Account
+2015-07-23 16:46:50...processing table opportunities
+2015-07-23 16:46:50...dropping table opportunities
+2015-07-23 16:46:50...creating table opportunities
+2015-07-23 16:46:50...creating Relationship Meta for Opportunity
+2015-07-23 16:46:50...processing table email_templates
+2015-07-23 16:46:50...dropping table email_templates
+2015-07-23 16:46:50...creating table email_templates
+2015-07-23 16:46:50...creating Relationship Meta for EmailTemplate
+2015-07-23 16:46:51...processing table notes
+2015-07-23 16:46:51...dropping table notes
+2015-07-23 16:46:51...creating table notes
+2015-07-23 16:46:51...creating Relationship Meta for Note
+2015-07-23 16:46:51...processing table calls
+2015-07-23 16:46:51...dropping table calls
+2015-07-23 16:46:51...creating table calls
+2015-07-23 16:46:51...creating Relationship Meta for Call
+2015-07-23 16:46:51...processing table emails
+2015-07-23 16:46:51...dropping table emails
+2015-07-23 16:46:51...creating table emails
+2015-07-23 16:46:51...creating Relationship Meta for Email
+2015-07-23 16:46:51...processing table meetings
+2015-07-23 16:46:51...dropping table meetings
+2015-07-23 16:46:51...creating table meetings
+2015-07-23 16:46:51...creating Relationship Meta for Meeting
+2015-07-23 16:46:51...processing table tasks
+2015-07-23 16:46:51...dropping table tasks
+2015-07-23 16:46:51...creating table tasks
+2015-07-23 16:46:51...creating Relationship Meta for Task
+2015-07-23 16:46:51...processing table users
+2015-07-23 16:46:51...processing table users
+2015-07-23 16:46:51...processing table currencies
+2015-07-23 16:46:51...dropping table currencies
+2015-07-23 16:46:51...creating table currencies
+2015-07-23 16:46:51...creating Relationship Meta for Currency
+2015-07-23 16:46:51...processing table tracker
+2015-07-23 16:46:51...dropping table tracker
+2015-07-23 16:46:51...creating table tracker
+2015-07-23 16:46:51...creating Relationship Meta for Tracker
+2015-07-23 16:46:51...processing table import_maps
+2015-07-23 16:46:51...dropping table import_maps
+2015-07-23 16:46:51...creating table import_maps
+2015-07-23 16:46:51...creating Relationship Meta for ImportMap
+2015-07-23 16:46:51...processing table users_last_import
+2015-07-23 16:46:51...dropping table users_last_import
+2015-07-23 16:46:51...creating table users_last_import
+2015-07-23 16:46:51...creating Relationship Meta for UsersLastImport
+2015-07-23 16:46:51...processing table config
+2015-07-23 16:46:51...dropping table config
+2015-07-23 16:46:51...creating table config
+2015-07-23 16:46:51...creating Relationship Meta for Administration
+2015-07-23 16:46:51...processing table upgrade_history
+2015-07-23 16:46:51...dropping table upgrade_history
+2015-07-23 16:46:51...creating table upgrade_history
+2015-07-23 16:46:51...creating Relationship Meta for UpgradeHistory
+2015-07-23 16:46:51...processing table vcals
+2015-07-23 16:46:51...dropping table vcals
+2015-07-23 16:46:51...creating table vcals
+2015-07-23 16:46:51...creating Relationship Meta for vCal
+2015-07-23 16:46:51...processing table versions
+2015-07-23 16:46:51...dropping table versions
+2015-07-23 16:46:51...creating table versions
+2015-07-23 16:46:51...creating Relationship Meta for Version
+2015-07-23 16:46:51...processing table roles
+2015-07-23 16:46:51...dropping table roles
+2015-07-23 16:46:51...creating table roles
+2015-07-23 16:46:51...creating Relationship Meta for Role
+2015-07-23 16:46:51...processing table documents
+2015-07-23 16:46:51...dropping table documents
+2015-07-23 16:46:51...creating table documents
+2015-07-23 16:46:51...creating Relationship Meta for Document
+2015-07-23 16:46:52...processing table document_revisions
+2015-07-23 16:46:52...dropping table document_revisions
+2015-07-23 16:46:52...creating table document_revisions
+2015-07-23 16:46:52...creating Relationship Meta for DocumentRevision
+2015-07-23 16:46:52...processing table fields_meta_data
+2015-07-23 16:46:52...dropping table fields_meta_data
+2015-07-23 16:46:52...creating table fields_meta_data
+2015-07-23 16:46:52...creating Relationship Meta for FieldsMetaData
+2015-07-23 16:46:52...processing table inbound_email
+2015-07-23 16:46:52...dropping table inbound_email
+2015-07-23 16:46:52...creating table inbound_email
+2015-07-23 16:46:52...creating Relationship Meta for InboundEmail
+2015-07-23 16:46:52...processing table saved_search
+2015-07-23 16:46:52...dropping table saved_search
+2015-07-23 16:46:52...creating table saved_search
+2015-07-23 16:46:52...creating Relationship Meta for SavedSearch
+2015-07-23 16:46:52...processing table user_preferences
+2015-07-23 16:46:52...dropping table user_preferences
+2015-07-23 16:46:52...creating table user_preferences
+2015-07-23 16:46:52...creating Relationship Meta for UserPreference
+2015-07-23 16:46:52...processing table 
+2015-07-23 16:46:52...processing table email_addresses
+2015-07-23 16:46:52...dropping table email_addresses
+2015-07-23 16:46:52...creating table email_addresses
+2015-07-23 16:46:52...creating Relationship Meta for EmailAddress
+2015-07-23 16:46:52...processing table emails_text
+2015-07-23 16:46:52...dropping table emails_text
+2015-07-23 16:46:52...creating table emails_text
+2015-07-23 16:46:52...creating Relationship Meta for EmailText
+2015-07-23 16:46:52...processing table sugarfeed
+2015-07-23 16:46:52...dropping table sugarfeed
+2015-07-23 16:46:52...creating table sugarfeed
+2015-07-23 16:46:52...creating Relationship Meta for SugarFeed
+2015-07-23 16:46:52...processing table eapm
+2015-07-23 16:46:52...dropping table eapm
+2015-07-23 16:46:52...creating table eapm
+2015-07-23 16:46:52...creating Relationship Meta for EAPM
+2015-07-23 16:46:52...processing table oauth_consumer
+2015-07-23 16:46:52...dropping table oauth_consumer
+2015-07-23 16:46:52...creating table oauth_consumer
+2015-07-23 16:46:52...creating Relationship Meta for OAuthKey
+2015-07-23 16:46:52...processing table oauth_tokens
+2015-07-23 16:46:52...dropping table oauth_tokens
+2015-07-23 16:46:52...creating table oauth_tokens
+2015-07-23 16:46:52...creating Relationship Meta for OAuthToken
+2015-07-23 16:46:52...processing table aow_actions
+2015-07-23 16:46:52...dropping table aow_actions
+2015-07-23 16:46:52...creating table aow_actions
+2015-07-23 16:46:52...creating Relationship Meta for AOW_Action
+2015-07-23 16:46:52...processing table aow_workflow
+2015-07-23 16:46:52...dropping table aow_workflow
+2015-07-23 16:46:52...creating table aow_workflow
+2015-07-23 16:46:52...creating Relationship Meta for AOW_WorkFlow
+2015-07-23 16:46:52...processing table aow_processed
+2015-07-23 16:46:52...dropping table aow_processed
+2015-07-23 16:46:52...creating table aow_processed
+2015-07-23 16:46:52...creating Relationship Meta for AOW_Processed
+2015-07-23 16:46:52...processing table aow_conditions
+2015-07-23 16:46:52...dropping table aow_conditions
+2015-07-23 16:46:52...creating table aow_conditions
+2015-07-23 16:46:52...creating Relationship Meta for AOW_Condition
+2015-07-23 16:46:52...processing table calls_reschedule
+2015-07-23 16:46:52...dropping table calls_reschedule
+2015-07-23 16:46:52...creating table calls_reschedule
+2015-07-23 16:46:52...creating Relationship Meta for Calls_Reschedule
+2015-07-23 16:46:53...processing table aos_contracts
+2015-07-23 16:46:53...dropping table aos_contracts
+2015-07-23 16:46:53...creating table aos_contracts
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Contracts
+2015-07-23 16:46:53...processing table aos_invoices
+2015-07-23 16:46:53...dropping table aos_invoices
+2015-07-23 16:46:53...creating table aos_invoices
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Invoices
+2015-07-23 16:46:53...processing table aos_pdf_templates
+2015-07-23 16:46:53...dropping table aos_pdf_templates
+2015-07-23 16:46:53...creating table aos_pdf_templates
+2015-07-23 16:46:53...creating Relationship Meta for AOS_PDF_Templates
+2015-07-23 16:46:53...processing table aos_product_categories
+2015-07-23 16:46:53...dropping table aos_product_categories
+2015-07-23 16:46:53...creating table aos_product_categories
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Product_Categories
+2015-07-23 16:46:53...processing table aos_products
+2015-07-23 16:46:53...dropping table aos_products
+2015-07-23 16:46:53...creating table aos_products
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Products
+2015-07-23 16:46:53...processing table aos_products_quotes
+2015-07-23 16:46:53...dropping table aos_products_quotes
+2015-07-23 16:46:53...creating table aos_products_quotes
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Products_Quotes
+2015-07-23 16:46:53...processing table aos_line_item_groups
+2015-07-23 16:46:53...dropping table aos_line_item_groups
+2015-07-23 16:46:53...creating table aos_line_item_groups
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Line_Item_Groups
+2015-07-23 16:46:53...processing table aos_quotes
+2015-07-23 16:46:53...dropping table aos_quotes
+2015-07-23 16:46:53...creating table aos_quotes
+2015-07-23 16:46:53...creating Relationship Meta for AOS_Quotes
+2015-07-23 16:46:53...processing table aor_reports
+2015-07-23 16:46:53...dropping table aor_reports
+2015-07-23 16:46:53...creating table aor_reports
+2015-07-23 16:46:53...creating Relationship Meta for AOR_Report
+2015-07-23 16:46:53...processing table aor_fields
+2015-07-23 16:46:53...dropping table aor_fields
+2015-07-23 16:46:53...creating table aor_fields
+2015-07-23 16:46:53...creating Relationship Meta for AOR_Field
+2015-07-23 16:46:53...processing table aor_charts
+2015-07-23 16:46:53...dropping table aor_charts
+2015-07-23 16:46:53...creating table aor_charts
+2015-07-23 16:46:53...creating Relationship Meta for AOR_Chart
+2015-07-23 16:46:54...processing table aor_conditions
+2015-07-23 16:46:54...dropping table aor_conditions
+2015-07-23 16:46:54...creating table aor_conditions
+2015-07-23 16:46:54...creating Relationship Meta for AOR_Condition
+2015-07-23 16:46:54...processing table aor_scheduled_reports
+2015-07-23 16:46:54...dropping table aor_scheduled_reports
+2015-07-23 16:46:54...creating table aor_scheduled_reports
+2015-07-23 16:46:54...creating Relationship Meta for AOR_Scheduled_Reports
+2015-07-23 16:46:54...processing table securitygroups
+2015-07-23 16:46:54...dropping table securitygroups
+2015-07-23 16:46:54...creating table securitygroups
+2015-07-23 16:46:54...creating Relationship Meta for SecurityGroup
+2015-07-23 16:46:54...processing table am_projecttemplates
+2015-07-23 16:46:54...dropping table am_projecttemplates
+2015-07-23 16:46:54...creating table am_projecttemplates
+2015-07-23 16:46:54...creating Relationship Meta for AM_ProjectTemplates
+2015-07-23 16:46:54...processing table am_tasktemplates
+2015-07-23 16:46:54...dropping table am_tasktemplates
+2015-07-23 16:46:54...creating table am_tasktemplates
+2015-07-23 16:46:54...creating Relationship Meta for AM_TaskTemplates
+2015-07-23 16:46:54...processing table am_projectholidays
+2015-07-23 16:46:54...dropping table am_projectholidays
+2015-07-23 16:46:54...creating table am_projectholidays
+2015-07-23 16:46:54...creating Relationship Meta for AM_ProjectHolidays
+2015-07-23 16:46:54...processing table aod_indexevent
+2015-07-23 16:46:54...dropping table aod_indexevent
+2015-07-23 16:46:54...creating table aod_indexevent
+2015-07-23 16:46:54...creating Relationship Meta for AOD_IndexEvent
+2015-07-23 16:46:54...processing table aod_index
+2015-07-23 16:46:54...dropping table aod_index
+2015-07-23 16:46:54...creating table aod_index
+2015-07-23 16:46:54...creating Relationship Meta for AOD_Index
+2015-07-23 16:46:54...processing table fp_events
+2015-07-23 16:46:54...dropping table fp_events
+2015-07-23 16:46:55...creating table fp_events
+2015-07-23 16:46:55...creating Relationship Meta for FP_events
+2015-07-23 16:46:55...processing table fp_event_locations
+2015-07-23 16:46:55...dropping table fp_event_locations
+2015-07-23 16:46:55...creating table fp_event_locations
+2015-07-23 16:46:55...creating Relationship Meta for FP_Event_Locations
+2015-07-23 16:46:55...processing table aop_case_events
+2015-07-23 16:46:55...dropping table aop_case_events
+2015-07-23 16:46:55...creating table aop_case_events
+2015-07-23 16:46:55...creating Relationship Meta for AOP_Case_Events
+2015-07-23 16:46:55...processing table aop_case_updates
+2015-07-23 16:46:55...dropping table aop_case_updates
+2015-07-23 16:46:55...creating table aop_case_updates
+2015-07-23 16:46:55...creating Relationship Meta for AOP_Case_Updates
+2015-07-23 16:46:55...processing table jjwg_maps
+2015-07-23 16:46:55...dropping table jjwg_maps
+2015-07-23 16:46:55...creating table jjwg_maps
+2015-07-23 16:46:55...creating Relationship Meta for jjwg_Maps
+2015-07-23 16:46:55...processing table jjwg_markers
+2015-07-23 16:46:55...dropping table jjwg_markers
+2015-07-23 16:46:55...creating table jjwg_markers
+2015-07-23 16:46:55...creating Relationship Meta for jjwg_Markers
+2015-07-23 16:46:55...processing table jjwg_areas
+2015-07-23 16:46:55...dropping table jjwg_areas
+2015-07-23 16:46:55...creating table jjwg_areas
+2015-07-23 16:46:55...creating Relationship Meta for jjwg_Areas
+2015-07-23 16:46:55...processing table jjwg_address_cache
+2015-07-23 16:46:55...dropping table jjwg_address_cache
+2015-07-23 16:46:55...creating table jjwg_address_cache
+2015-07-23 16:46:55...creating Relationship Meta for jjwg_Address_Cache
+2015-07-23 16:46:56...Begin creating Defaults
+2015-07-23 16:46:56...insert defaults into config table
+2015-07-23 16:46:56...Creating default users
+2015-07-23 16:46:56...Creating default scheduler jobs
+2015-07-23 16:46:56...Enable SugarFeeds
+2015-07-23 16:46:56...Installation has completed *********
+2015-07-23 16:47:06...populating the db with seed data
+2015-07-23 16:47:15...installerHook: Could not find custom/install/install_hooks.php

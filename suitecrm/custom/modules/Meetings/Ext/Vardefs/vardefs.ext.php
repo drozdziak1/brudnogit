@@ -2,10 +2,21 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-01-20 12:22:32
+ // created: 2015-07-23 16:46:58
 
  
 
+ // created: 2015-07-23 16:46:58
+
+ 
+
+ // created: 2015-07-23 16:46:58
+
+ 
+
+ // created: 2015-07-23 16:46:58
+
+ 
 
 
 $dictionary['Meeting']['fields']['SecurityGroups'] = array (
@@ -21,20 +32,5 @@ $dictionary['Meeting']['fields']['SecurityGroups'] = array (
 
 
 
-
-
- // created: 2014-01-20 12:22:32
-
- 
-
-
- // created: 2014-01-20 12:22:32
-
- 
-
-
- // created: 2014-01-20 12:22:31
-
- 
 
 ?>

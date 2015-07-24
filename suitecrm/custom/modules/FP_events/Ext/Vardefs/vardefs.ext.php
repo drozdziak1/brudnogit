@@ -2,13 +2,13 @@
  //WARNING: The contents of this file are auto-generated
 
 
-// created: 2013-04-15 12:13:27
-$dictionary["FP_events"]["fields"]["fp_events_contacts"] = array (
-  'name' => 'fp_events_contacts',
+// created: 2013-04-30 14:55:07
+$dictionary["FP_events"]["fields"]["fp_events_prospects_1"] = array (
+  'name' => 'fp_events_prospects_1',
   'type' => 'link',
-  'relationship' => 'fp_events_contacts',
+  'relationship' => 'fp_events_prospects_1',
   'source' => 'non-db',
-  'vname' => 'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE',
+  'vname' => 'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE',
 );
 
 
@@ -54,13 +54,13 @@ $dictionary["FP_events"]["fields"]["fp_events_leads_1"] = array (
 );
 
 
-// created: 2013-04-30 14:55:07
-$dictionary["FP_events"]["fields"]["fp_events_prospects_1"] = array (
-  'name' => 'fp_events_prospects_1',
+// created: 2013-04-15 12:13:27
+$dictionary["FP_events"]["fields"]["fp_events_contacts"] = array (
+  'name' => 'fp_events_contacts',
   'type' => 'link',
-  'relationship' => 'fp_events_prospects_1',
+  'relationship' => 'fp_events_contacts',
   'source' => 'non-db',
-  'vname' => 'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE',
+  'vname' => 'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE',
 );
 
 ?>

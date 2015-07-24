@@ -2,14 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-
-$mod_strings = array_merge($mod_strings,
-	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Группы пользователей",
-	)
-);
-
-
 $mod_strings = array (
     'LBL_RESCHEDULE' => 'Отложить звонок',
     'LBL_RESCHEDULE_COUNT' => 'Попыток дозвона',
@@ -20,6 +12,14 @@ $mod_strings = array (
     'LBL_RESCHEDULE_PANEL' => 'Отложенные звонки',
     'LBL_RESCHEDULE_HISTORY' => 'История дозвона'
 
+);
+
+
+
+$mod_strings = array_merge($mod_strings,
+	array(
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Группы пользователей",
+	)
 );
 
 ?>

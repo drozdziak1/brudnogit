@@ -2,26 +2,21 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-01-20 12:22:33
+ // created: 2015-07-23 16:46:58
 
  
 
+ // created: 2015-07-23 16:46:58
 
+ 
 
-$dictionary['Opportunity']['fields']['SecurityGroups'] = array (
-  	'name' => 'SecurityGroups',
-    'type' => 'link',
-	'relationship' => 'securitygroups_opportunities',
-	'module'=>'SecurityGroups',
-	'bean_name'=>'SecurityGroup',
-    'source'=>'non-db',
-	'vname'=>'LBL_SECURITYGROUPS',
-);
+ // created: 2015-07-23 16:46:58
 
+ 
 
+ // created: 2015-07-23 16:46:58
 
-
-
+ 
 
 $dictionary["Opportunity"]["fields"]["aos_quotes"] = array (
   'name' => 'aos_quotes',
@@ -63,18 +58,19 @@ $dictionary["Opportunity"]["relationships"]["opportunity_aos_contracts"] = array
 
 
 
- // created: 2014-01-20 12:22:33
 
- 
+$dictionary['Opportunity']['fields']['SecurityGroups'] = array (
+  	'name' => 'SecurityGroups',
+    'type' => 'link',
+	'relationship' => 'securitygroups_opportunities',
+	'module'=>'SecurityGroups',
+	'bean_name'=>'SecurityGroup',
+    'source'=>'non-db',
+	'vname'=>'LBL_SECURITYGROUPS',
+);
 
 
- // created: 2014-01-20 12:22:33
-
- 
 
 
- // created: 2014-01-20 12:22:32
-
- 
 
 ?>

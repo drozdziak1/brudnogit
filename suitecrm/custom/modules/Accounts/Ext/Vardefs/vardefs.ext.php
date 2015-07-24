@@ -2,11 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2014-01-20 12:22:28
-
- 
-
-
 
 $dictionary['Account']['fields']['SecurityGroups'] = array (
   	'name' => 'SecurityGroups',
@@ -22,6 +17,10 @@ $dictionary['Account']['fields']['SecurityGroups'] = array (
 
 
 
+
+ // created: 2015-07-23 16:46:57
+
+ 
 
 $dictionary["Account"]["fields"]["aos_quotes"] = array (
   'name' => 'aos_quotes',
@@ -82,18 +81,15 @@ $dictionary["Account"]["relationships"]["account_aos_contracts"] = array (
 
 
 
- // created: 2014-01-20 12:22:29
+ // created: 2015-07-23 16:46:57
 
  
 
-
- // created: 2014-01-20 12:22:28
-
- 
-
-
- // created: 2014-01-20 12:22:28
+ // created: 2015-07-23 16:46:57
 
  
 
+ // created: 2015-07-23 16:46:57
+
+ 
 ?>

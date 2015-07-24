@@ -472,73 +472,16 @@ var pos=$(el).offset(),ofWidth=$(el).width(),elmId=id||'helpTip'+pos.left+'_'+of
 $dialog.dialog('open');$(".ui-dialog").appendTo("#content");},getStaticAdditionalDetails:function(el,body,caption,show_buttons){if(typeof show_buttons=="undefined"){show_buttons=false;}
 $(".ui-dialog").find(".open").dialog("close");var $dialog=$('<div class="open"></div>').html(body).dialog({autoOpen:false,title:caption,width:300,position:{my:'right top',at:'left top',of:$(el)}});if(show_buttons){$(".ui-dialog").find('.ui-dialog-titlebar-close').css("display","none");$(".ui-dialog").find('.ui-dialog-title').css("width","100%");}
 var width=$dialog.dialog("option","width");var pos=$(el).offset();var ofWidth=$(el).width();if((pos.left+ofWidth)-40<width){$dialog.dialog("option","position",{my:'left top',at:'right top',of:$(el)});}
-$dialog.dialog('open');$(".ui-dialog").appendTo("#content");},closeStaticAdditionalDetails:function(){$(".ui-dialog").find(".open").dialog("close");},		getAdditionalDetails: function(bean, id, spanId, show_buttons) {
-    if(typeof show_buttons == "undefined")
-        show_buttons = false;
-    var el = '#'+spanId;
-    go = function() {
-        oReturn = function(body, caption, width, theme) {
-
-            $(".ui-dialog").find(".open").dialog("close");
-
-            var $dialog = $('<div class="open"></div>')
-                .html(body)
-                .dialog({
-                    autoOpen: false,
-                    title: caption,
-                    width: 300,
-                    position: {
-                        my: 'right top',
-                        at: 'left top',
-                        of: $(el)
-                    }
-                });
-            if(show_buttons) {
-                $(".ui-dialog").find('.ui-dialog-titlebar-close').css("display","none");
-                $(".ui-dialog").find('.ui-dialog-title').css("width","100%");
-            }
-
-            var width = $dialog.dialog( "option", "width" );
-            var pos = $(el).offset();
-            var ofWidth = $(el).width();
-
-            console.log('123');
-            if((pos.left + ofWidth) - 40 < width) {
-                console.log('asd');
-                $dialog.dialog("option","position",{my: 'left top',at: 'right top',of: $(el)})	;
-            }
-
-            $dialog.dialog('open');
-            $(".ui-dialog").appendTo("#content");
-        }
-
-        success = function(data) {
-            eval(data.responseText);
-
-            SUGAR.util.additionalDetailsCache[id] = new Array();
-            SUGAR.util.additionalDetailsCache[id]['body'] = result['body'];
-            SUGAR.util.additionalDetailsCache[id]['caption'] = result['caption'];
-            SUGAR.util.additionalDetailsCache[id]['width'] = result['width'];
-            SUGAR.util.additionalDetailsCache[id]['theme'] = result['theme'];
-            ajaxStatus.hideStatus();
-            return oReturn(SUGAR.util.additionalDetailsCache[id]['body'], SUGAR.util.additionalDetailsCache[id]['caption'], SUGAR.util.additionalDetailsCache[id]['width'], SUGAR.util.additionalDetailsCache[id]['theme']);
-        }
-
-        if(typeof SUGAR.util.additionalDetailsCache[id] != 'undefined')
-            return oReturn(SUGAR.util.additionalDetailsCache[id]['body'], SUGAR.util.additionalDetailsCache[id]['caption'], SUGAR.util.additionalDetailsCache[id]['width'], SUGAR.util.additionalDetailsCache[id]['theme']);
-
-        if(typeof SUGAR.util.additionalDetailsCalls[id] != 'undefined') // call already in progress
-            return;
-        ajaxStatus.showStatus(SUGAR.language.get('app_strings', 'LBL_LOADING'));
-        url = 'index.php?to_pdf=1&module=Home&action=AdditionalDetailsRetrieve&bean=' + bean + '&id=' + id;
-        if(show_buttons)
-            url += '&show_buttons=true';
-        SUGAR.util.additionalDetailsCalls[id] = YAHOO.util.Connect.asyncRequest('GET', url, {success: success, failure: success});
-
-        return false;
-    }
-    SUGAR.util.additionalDetailsRpcCall = window.setTimeout('go()', 250);
-},clearAdditionalDetailsCall:function(){if(typeof SUGAR.util.additionalDetailsRpcCall=='number')window.clearTimeout(SUGAR.util.additionalDetailsRpcCall);},extend:function(subc,superc,overrides){subc.prototype=new superc;if(overrides){for(var i in overrides)subc.prototype[i]=overrides[i];}},hrefURL:function(url){if(SUGAR.isIE){var trampoline=document.createElement('a');trampoline.href=url;document.body.appendChild(trampoline);trampoline.click();document.body.removeChild(trampoline);}else{document.location.href=url;}},openWindow:function(URL,windowName,windowFeatures){if(SUGAR.isIE){win=window.open('',windowName,windowFeatures);var trampoline=document.createElement('a');trampoline.href=URL;trampoline.target=windowName;document.body.appendChild(trampoline);trampoline.click();document.body.removeChild(trampoline);}else{win=window.open(URL,windowName,windowFeatures);}
+$dialog.dialog('open');$(".ui-dialog").appendTo("#content");},closeStaticAdditionalDetails:function(){$(".ui-dialog").find(".open").dialog("close");},getAdditionalDetails:function(bean,id,spanId,show_buttons){if(typeof show_buttons=="undefined")
+show_buttons=false;var el='#'+spanId;go=function(){oReturn=function(body,caption,width,theme){$(".ui-dialog").find(".open").dialog("close");var $dialog=$('<div class="open"></div>').html(body).dialog({autoOpen:false,title:caption,width:300,position:{my:'right top',at:'left top',of:$(el)}});if(show_buttons){$(".ui-dialog").find('.ui-dialog-titlebar-close').css("display","none");$(".ui-dialog").find('.ui-dialog-title').css("width","100%");}
+var width=$dialog.dialog("option","width");var pos=$(el).offset();var ofWidth=$(el).width();if((pos.left+ofWidth)-40<width){$dialog.dialog("option","position",{my:'left top',at:'right top',of:$(el)});}
+$dialog.dialog('open');$(".ui-dialog").appendTo("#content");}
+success=function(data){eval(data.responseText);SUGAR.util.additionalDetailsCache[id]=new Array();SUGAR.util.additionalDetailsCache[id]['body']=result['body'];SUGAR.util.additionalDetailsCache[id]['caption']=result['caption'];SUGAR.util.additionalDetailsCache[id]['width']=result['width'];SUGAR.util.additionalDetailsCache[id]['theme']=result['theme'];ajaxStatus.hideStatus();return oReturn(SUGAR.util.additionalDetailsCache[id]['body'],SUGAR.util.additionalDetailsCache[id]['caption'],SUGAR.util.additionalDetailsCache[id]['width'],SUGAR.util.additionalDetailsCache[id]['theme']);}
+if(typeof SUGAR.util.additionalDetailsCache[id]!='undefined')
+return oReturn(SUGAR.util.additionalDetailsCache[id]['body'],SUGAR.util.additionalDetailsCache[id]['caption'],SUGAR.util.additionalDetailsCache[id]['width'],SUGAR.util.additionalDetailsCache[id]['theme']);if(typeof SUGAR.util.additionalDetailsCalls[id]!='undefined')
+return;ajaxStatus.showStatus(SUGAR.language.get('app_strings','LBL_LOADING'));url='index.php?to_pdf=1&module=Home&action=AdditionalDetailsRetrieve&bean='+bean+'&id='+id;if(show_buttons)
+url+='&show_buttons=true';SUGAR.util.additionalDetailsCalls[id]=YAHOO.util.Connect.asyncRequest('GET',url,{success:success,failure:success});return false;}
+SUGAR.util.additionalDetailsRpcCall=window.setTimeout('go()',250);},clearAdditionalDetailsCall:function(){if(typeof SUGAR.util.additionalDetailsRpcCall=='number')window.clearTimeout(SUGAR.util.additionalDetailsRpcCall);},extend:function(subc,superc,overrides){subc.prototype=new superc;if(overrides){for(var i in overrides)subc.prototype[i]=overrides[i];}},hrefURL:function(url){if(SUGAR.isIE){var trampoline=document.createElement('a');trampoline.href=url;document.body.appendChild(trampoline);trampoline.click();document.body.removeChild(trampoline);}else{document.location.href=url;}},openWindow:function(URL,windowName,windowFeatures){if(SUGAR.isIE){win=window.open('',windowName,windowFeatures);var trampoline=document.createElement('a');trampoline.href=URL;trampoline.target=windowName;document.body.appendChild(trampoline);trampoline.click();document.body.removeChild(trampoline);}else{win=window.open(URL,windowName,windowFeatures);}
 return win;},top:function(){window.scroll(0,0);},doWhen:function(condition,fn,params,scope)
 {this._doWhenStack.push({check:condition,fn:fn,obj:params,overrideContext:scope});this._doWhenretryCount=50;this._startDoWhenInterval();},_startDoWhenInterval:function(){if(!this._doWhenInterval){this._doWhenInterval=YAHOO.lang.later(50,this,this._doWhenCheck,null,true);}},_doWhenStack:[],_doWhenInterval:false,_doWhenCheck:function(){if(this._doWhenStack.length===0){this._doWhenretryCount=0;if(this._doWhenInterval){this._doWhenInterval.cancel();this._doWhenInterval=null;}
 return;}
@@ -952,7 +895,7 @@ return returnArray.join(dateParams.delim);};var sanitizedDate=sanitizeDate(Calen
 {SUGAR.email2.addressBook.initFixForDatatableSort();SUGAR.quickCompose.resourcesLoaded=true;var callback={success:function(o)
 {var responseData=JSON.parse(o.responseText);var scriptTag=document.createElement('script');scriptTag.id='quickComposeScript';scriptTag.setAttribute('type','text/javascript');if(YAHOO.env.ua.ie>0)
 scriptTag.text=responseData.jsData;else
-scriptTag.appendChild(document.createTextNode(responseData.jsData));document.getElementsByTagName("head")[0].appendChild(scriptTag);var divTag=document.createElement("div");divTag.innerHTML=responseData.divData;divTag.id='quickCompose';YAHOO.util.Dom.insertBefore(divTag,'footer');SUGAR.quickCompose.frameLoaded=true;SUGAR.quickCompose.initUI(c.data);}}
+scriptTag.appendChild(document.createTextNode(responseData.jsData));document.getElementsByTagName("head")[0].appendChild(scriptTag);var divTag=document.createElement("div");divTag.innerHTML=responseData.divData;divTag.id='quickCompose';YAHOO.util.Dom.insertBefore(divTag,document.getElementsByTagName('footer')[0]);SUGAR.quickCompose.frameLoaded=true;SUGAR.quickCompose.initUI(c.data);}}
 if(!SUGAR.quickCompose.frameLoaded)
 YAHOO.util.Connect.asyncRequest('GET','index.php?entryPoint=GenerateQuickComposeFrame',callback,null);else
 SUGAR.quickCompose.initUI(c.data);},initUI:function(options)

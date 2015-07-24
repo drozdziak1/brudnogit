@@ -2,6 +2,11 @@
  //WARNING: The contents of this file are auto-generated
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE'] = 'События';
+$mod_strings['LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE'] = 'Участники';
+
+
 
 $mod_strings = array_merge($mod_strings,
 	array(
@@ -9,11 +14,6 @@ $mod_strings = array_merge($mod_strings,
 	)
 );
 
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE'] = 'События';
-$mod_strings['LBL_FP_EVENT_DELEGATES_CONTACTS_1_FROM_FP_EVENT_DELEGATES_TITLE'] = 'Участники';
 
 
 /**

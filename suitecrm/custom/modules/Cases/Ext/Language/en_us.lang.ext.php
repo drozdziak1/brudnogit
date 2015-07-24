@@ -24,14 +24,16 @@
  *
  * @author Salesagility Ltd <support@salesagility.com>
  */
-$mod_strings['LBL_UPDATE_TEXT'] = 'Update Text';
-$mod_strings['LBL_INTERNAL'] = 'Internal Update';
-$mod_strings['LBL_AOP_CASE_UPDATES'] = 'Case Updates';
-$mod_strings['LBL_AOP_CASE_UPDATES_THREADED'] = 'Case Updates Threaded';
-$mod_strings['LBL_CASE_UPDATES_COLLAPSE_ALL'] = 'Collapse All';
-$mod_strings['LBL_CASE_UPDATES_EXPAND_ALL'] = 'Expand All';
-$mod_strings['LBL_NO_CASE_UPDATES'] = "There have been no updates to this case";
-$mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Attachments: '; 
+$mod_strings['LBL_AOP_CASE_EVENTS'] = 'Case Events';
+
+
+
+$mod_strings = array_merge($mod_strings,
+	array(
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Security Groups",
+	)
+);
+
 
 
 /**
@@ -56,16 +58,14 @@ $mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Attachments: ';
  *
  * @author Salesagility Ltd <support@salesagility.com>
  */
-$mod_strings['LBL_AOP_CASE_EVENTS'] = 'Case Events';
-
-
-
-$mod_strings = array_merge($mod_strings,
-	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Security Groups",
-	)
-);
-
+$mod_strings['LBL_UPDATE_TEXT'] = 'Update Text';
+$mod_strings['LBL_INTERNAL'] = 'Internal Update';
+$mod_strings['LBL_AOP_CASE_UPDATES'] = 'Case Updates';
+$mod_strings['LBL_AOP_CASE_UPDATES_THREADED'] = 'Case Updates Threaded';
+$mod_strings['LBL_CASE_UPDATES_COLLAPSE_ALL'] = 'Collapse All';
+$mod_strings['LBL_CASE_UPDATES_EXPAND_ALL'] = 'Expand All';
+$mod_strings['LBL_NO_CASE_UPDATES'] = "There have been no updates to this case";
+$mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Attachments: '; 
 
 
 /**

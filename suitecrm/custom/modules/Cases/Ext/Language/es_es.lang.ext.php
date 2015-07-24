@@ -34,15 +34,6 @@ $mod_strings['LBL_NO_CASE_UPDATES'] = "No ha habido actualizaciones de este caso
 $mod_strings['LBL_AOP_CASE_ATTACHMENTS'] = 'Adjuntos: '; 
 
 
-
-$mod_strings = array_merge($mod_strings,
-	array(
-		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Grupos de Seguridad",
-	)
-);
-
-
-
 /**
  *
  * @package Advanced OpenPortal
@@ -66,5 +57,14 @@ $mod_strings = array_merge($mod_strings,
  * @author Salesagility Ltd <support@salesagility.com>
  */
 $mod_strings['LBL_AOP_CASE_EVENTS'] = 'Eventos de Casos';
+
+
+
+$mod_strings = array_merge($mod_strings,
+	array(
+		 'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "Grupos de Seguridad",
+	)
+);
+
 
 ?>
