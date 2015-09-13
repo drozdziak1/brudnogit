@@ -77,7 +77,7 @@ $dictionary["Contact"]["fields"]["portal_user_type"] = array (
 );
  
 
- // created: 2015-07-23 16:46:57
+ // created: 2015-07-30 21:07:48
 
  
 
@@ -93,11 +93,11 @@ $dictionary["Contact"]["fields"]["project_contacts_1"] = array (
 );
 
 
- // created: 2015-07-23 16:46:57
+ // created: 2015-07-30 21:07:48
 
  
 
- // created: 2015-07-23 16:46:57
+ // created: 2015-07-30 21:07:48
 
  
 
@@ -173,7 +173,7 @@ $dictionary["Contact"]["relationships"]["contact_aos_contracts"] = array (
 
 
 
- // created: 2015-07-23 16:46:57
+ // created: 2015-07-30 21:07:48
 
  
 

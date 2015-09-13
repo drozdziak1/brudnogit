@@ -88,11 +88,11 @@ $dictionary['Lead']['fields']['event_status_id'] =
         'studio' => array('listview' => false),
     );
 
- // created: 2015-07-23 16:46:58
+ // created: 2015-07-30 21:07:48
 
  
 
- // created: 2015-07-23 16:46:58
+ // created: 2015-07-30 21:07:48
 
  
 
@@ -112,11 +112,11 @@ $dictionary['Lead']['fields']['SecurityGroups'] = array (
 
 
 
- // created: 2015-07-23 16:46:58
+ // created: 2015-07-30 21:07:48
 
  
 
- // created: 2015-07-23 16:46:58
+ // created: 2015-07-30 21:07:48
 
  
 ?>

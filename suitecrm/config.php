@@ -1,9 +1,10 @@
 <?php
-// created: 2015-07-23 16:46:57
+// created: 2015-07-30 21:07:47
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
     0 => 'SecurityGroups',
+    1 => 'SecurityGroups',
   ),
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -14,11 +15,11 @@ $sugar_config = array (
   'aop' => 
   array (
     'distribution_method' => 'roundRobin',
-    'case_closure_email_template_id' => 'eb358252-a3f9-58a6-8d45-55b11a4c183c',
-    'joomla_account_creation_email_template_id' => 'ef3eaf4c-6a0c-f028-6484-55b11aa09d81',
-    'case_creation_email_template_id' => 'f3a87901-a25c-71bb-637d-55b11af8e8a2',
-    'contact_email_template_id' => '48460571-8ff8-a205-5d3d-55b11a99fe9c',
-    'user_email_template_id' => '9c8d05d6-78f5-ed5a-99fd-55b11aed8568',
+    'case_closure_email_template_id' => '2f9460cb-9637-ebf3-747d-55ba925bd08e',
+    'joomla_account_creation_email_template_id' => '34702f53-0d25-c314-84ff-55ba92f56a56',
+    'case_creation_email_template_id' => '387cabc2-c87f-78c7-ae87-55ba923fd79b',
+    'contact_email_template_id' => '3fe9c936-f248-9526-2fa6-55ba92fe5497',
+    'user_email_template_id' => '45cd2e61-88c2-c0a9-6100-55ba920c8b78',
   ),
   'aos' => 
   array (
@@ -251,7 +252,7 @@ $sugar_config = array (
   'import_max_execution_time' => 3600,
   'import_max_records_per_file' => 100,
   'import_max_records_total_limit' => '',
-  'installer_locked' => true,
+  'installer_locked' => false,
   'jobs' => 
   array (
     'min_retry_interval' => 30,
@@ -304,8 +305,8 @@ $sugar_config = array (
   'passwordsetting' => 
   array (
     'SystemGeneratedPasswordON' => true,
-    'generatepasswordtmpl' => 'b1ba8095-b8cf-ada2-67f7-55b11aeae6be',
-    'lostpasswordtmpl' => 'b7cc2add-0a2d-971d-55ea-55b11a958f10',
+    'generatepasswordtmpl' => '79859657-667c-e0ac-3ea6-55ba927cf95e',
+    'lostpasswordtmpl' => '7f079dc7-2b4c-9113-8313-55ba92bac22f',
     'forgotpasswordON' => true,
     'linkexpiration' => true,
     'linkexpirationtime' => 24,

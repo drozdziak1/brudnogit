@@ -9292,6 +9292,17 @@
     'relationship_role_column' => 'target_type',
     'relationship_role_column_value' => 'Contacts',
   ),
+  'contacts_aop_case_updates' => 
+  array (
+    'name' => 'contacts_aop_case_updates',
+    'lhs_module' => 'Contacts',
+    'lhs_table' => 'contacts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOP_Case_Updates',
+    'rhs_table' => 'aop_case_updates',
+    'rhs_key' => 'contact_id',
+    'relationship_type' => 'one-to-many',
+  ),
   'contact_aos_quotes' => 
   array (
     'name' => 'contact_aos_quotes',
@@ -9322,17 +9333,6 @@
     'lhs_key' => 'id',
     'rhs_module' => 'AOS_Contracts',
     'rhs_table' => 'aos_contracts',
-    'rhs_key' => 'contact_id',
-    'relationship_type' => 'one-to-many',
-  ),
-  'contacts_aop_case_updates' => 
-  array (
-    'name' => 'contacts_aop_case_updates',
-    'lhs_module' => 'Contacts',
-    'lhs_table' => 'contacts',
-    'lhs_key' => 'id',
-    'rhs_module' => 'AOP_Case_Updates',
-    'rhs_table' => 'aop_case_updates',
     'rhs_key' => 'contact_id',
     'relationship_type' => 'one-to-many',
   ),

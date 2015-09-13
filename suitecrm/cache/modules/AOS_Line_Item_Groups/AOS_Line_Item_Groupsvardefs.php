@@ -562,4 +562,5 @@
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );

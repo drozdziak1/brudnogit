@@ -1,5 +1,5 @@
 <?php
-// created: 2015-07-23 16:51:19
+// created: 2015-07-30 21:08:40
 $dashletsFiles = array (
   'AOS_QuotesDashlet' => 
   array (
